@@ -1,0 +1,58 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:#4cAF50;
+    text-align: center;
+    color: azure;
+    padding:1em 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+     gap: 1em;
+    padding: 2rem;
+   
+   
+}
+.text-blocks{
+    border: 2px solid #ddd;
+    
+    background-color:#6b2e2e; 
+    
+    color: azure;
+} 
+
+
+@media (min-width:540px) and (max-width:760px) {
+    .text-blocks{
+       
+        
+        background-color:lightcoral; 
+        color: rgb(225, 41, 13);
+        
+        
+    }
+}
+@media (min-width:770px) and (max-width:1023px){
+    .text-blocks{
+       
+        
+        background-color:lightblue; 
+        
+        Color:  blue;
+    }
+}
+@media (min-width:1024px) {
+    .text-blocks{
+       
+        
+        background-color:lightgreen; 
+        
+        Color: Darkgreen;
+    }
+}
+
